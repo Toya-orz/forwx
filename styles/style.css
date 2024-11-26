@@ -1,0 +1,203 @@
+p {
+    color: rgba(255, 240, 242, 0.96);
+  }
+
+a:hover {
+    color: aquamarine;
+    text-decoration: none;
+  }
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+
+html {
+    font-size: 10px;
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(214, 223, 152);
+  }
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #ffffff;
+    text-shadow: 3px 3px 1px black;
+    /* 	第一个像素值设置阴影相对于文本的水平偏移：它移动的距离。
+	    第二个像素值设置阴影相对于文本的垂直偏移：向下移动的距离。
+		  第三个像素值设置阴影的模糊半径。值越大，阴影看起来越模糊。
+      第四个值设置阴影的基色。 */
+    border-bottom: 6px dotted #ffffff
+  }
+    
+h2 {
+  font-size: 25px;
+  text-align: center;
+  color: #fddede;
+  text-shadow: 1px 1px 1px rgb(120, 117, 117);
+}
+
+article p {
+  text-indent: 2em;
+  line-height: 1.5;
+}
+
+p,
+time,
+li {
+    color: rgb(69, 64, 55);
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+    
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color:rgb(252, 244, 223);
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+  }
+
+img.top-margin,
+img.contacts_pic {
+  margin-top: 30px;
+  }
+
+.related {
+  list-style-type: none;
+  color: rgb(255, 218, 250);
+  }
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+img.contacts_pic {
+  display: block;
+  width: 50%;
+}
+
+.text_align_right,
+.sender-column {
+  text-align: right;
+  line-height: 2
+}
+
+video {
+  display: block;
+  width: 100%;
+}
+
+audio {
+  width: 300px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  height: 3vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:350px;
+}
+
+/* 为 nav 元素设置 display: flex */
+nav {
+  display: flex;
+  padding: 0;
+  align-items: center; /* 垂直居中 */
+}
+
+/* 移除 ul 的默认样式 */
+.links-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+/* 设置链接的样式 */
+.links-list a {
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.7em 0.7em;
+}
+
+/* 设置按钮的样式 */
+.change-user {
+  margin-left: 2em; /* 推到右侧 */
+  margin-right: 1em; /* 右侧留出间距 */
+}
+
+/* 设置搜索表单的样式 */
+.search-form {
+  margin-left: 1em; /* 左侧留出间距 */
+  
+}
+
+/* 设置搜索框的样式 */
+.search-form input[type="search"] {
+  padding-inline: 6px;
+  width: 8.5em; /* 减小输入框的宽度 */
+}
+
+.social {
+  display: flex;
+  justify-content: space-between; /* 分配空间以使两个子元素分开 */
+  align-items: center; /* 垂直居中 */
+}
+
+.background_stars {
+  background-image: url('snow.gif');
+  background-repeat: repeat; /* 图片重复 */
+  background-position: center center; /* 背景图片居中 */
+  background-size: cover; /* 图片覆盖整个容器 */
+  background-size: 600px auto
+}
+
+.background_leaf {
+  background-image: url('leaf.gif');
+  background-repeat: repeat; /* 图片重复 */
+  background-position: center center; /* 背景图片居中 */
+  background-size: cover; /* 图片覆盖整个容器 */
+  background-size: 350px auto
+}
+
+.background_stars {
+  background-image: url('snow.gif');
+  background-repeat: repeat; /* 图片重复 */
+  background-position: center center; /* 背景图片居中 */
+  background-size: cover; /* 图片覆盖整个容器 */
+  background-size: 600px auto
+}
+
+.background_forletter {
+  background-image: url('forletter.gif');
+  background-repeat: repeat; /* 图片重复 */
+  background-position: center center; /* 背景图片居中 */
+  background-size: cover; /* 图片覆盖整个容器 */
+  background-size: 400px auto
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
